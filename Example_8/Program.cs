@@ -5,11 +5,10 @@
 Console.Clear();
 Console.WriteLine("Введите число ");
 int number=int.Parse(Console.ReadLine()!);
-int temp=0;
-//while (temp<=number)
-//    {if (temp%2==0)
-//        {
-//        Console.Write(temp+" ");
-//        }
-//    temp++;
-//    };
+int temp=1;
+while (temp<=number)
+    {
+        if (temp%2==0)
+        Console.Write(temp+" ");
+    temp=temp+1;
+    }
