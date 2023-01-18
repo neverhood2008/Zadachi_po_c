@@ -8,7 +8,8 @@ double [] fillArray (int length,double start,double end)
     for (int i=0;i<length;i++)
     {
         array[i]=Math.Round(new Random().NextDouble()*(end-start)+start,1);
-    }
+        //array[i]=new Random().Next(start,end);
+            }
     return array;
 }
 int getUserData(string message)
